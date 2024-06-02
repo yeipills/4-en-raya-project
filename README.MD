@@ -4,6 +4,11 @@
 
 Este proyecto implementa el juego "4 en raya" utilizando el modelo Cliente/Servidor. El servidor gestiona las conexiones de los clientes y controla el flujo del juego.
 
+## Integrantes
+
+- Juan Pablo Rosas Martin - RUT 20.738.415-1
+- Yerko Cisternas Torres - RUT 20.259.000-4
+
 ## Requisitos
 
 - C++17
@@ -20,7 +25,7 @@ project_root/
 │       └── game_logic.h
 ├── src/
 │   ├── common/
-│   │   ├── game_logic.cpp
+│   │   └── game_logic.cpp
 │   ├── server/
 │   │   ├── servidor.cpp
 │   │   ├── Makefile
@@ -110,21 +115,21 @@ Este proyecto implementa la parte del servidor del juego 4 en raya. El servidor 
 
 ## Estructura del Proyecto
 
-``` bash
-
+```bash
 project_root/
 ├── include/
 │   └── common/
-│       └── game_logic.h
+│       ├── game_logic.h
+│       ├── server.h
+│       └── client.h
 ├── src/
 │   ├── common/
-│   │   ├── game_logic.cpp
+│   │   └── game_logic.cpp
 │   ├── server/
 │   │   ├── servidor.cpp
 │   │   ├── Makefile
 │   │   └── README.md
 ├── build/
-
 ```
 
 ## Compilación
@@ -166,20 +171,20 @@ Este proyecto implementa la parte del cliente del juego 4 en raya. El cliente se
 ## Estructura del Proyecto
 
 ```bash
-
 project_root/
 ├── include/
 │   └── common/
-│       └── game_logic.h
+│       ├── game_logic.h
+│       ├── server.h
+│       └── client.h
 ├── src/
 │   ├── common/
-│   │   ├── game_logic.cpp
+│   │   └── game_logic.cpp
 │   ├── client/
 │   │   ├── cliente.cpp
 │   │   ├── Makefile
 │   │   └── README.md
 ├── build/
-
 ```
 
 ## Compilación
