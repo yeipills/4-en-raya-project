@@ -4,11 +4,6 @@
 
 Este proyecto implementa el juego "4 en raya" utilizando el modelo Cliente/Servidor. El servidor gestiona las conexiones de los clientes y controla el flujo del juego.
 
-## Integrantes
-
-- Juan Pablo Rosas Martin - RUT 20.738.415-1
-- Yerko Cisternas Torres - RUT 20.259.000-4
-
 ## Requisitos
 
 - C++17
